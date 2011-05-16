@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/*--Paging Styles--*/
+
+.paging {
+    font: normal 13px Helvetica;
+	position: absolute;
+	bottom: 0px; right: -40px;
+	width: 278px; height: 56px;
+	z-index: 100; /*--Assures the paging stays on the top layer--*/
+	text-align: center;
+	line-height: 45px;
+	display: none;
+	background:url(paging/paging.png) no-repeat;
+	background-position:center;
+}
+
+.paging a {
+	font-family:Helvetica, sans-serif;
+	padding: 5px;
+	text-decoration: none;
+	color: #fff;
+}
+
+.paging a.active {
+	font-family:Helvetica, sans-serif;
+	font-weight: bold;
+	background: #26ace2;
+	border: 1px solid #125671;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.paging a:hover.active {
+	font-family:Helvetica, sans-serif;
+	font-weight: bold;
+	color: #FFF;
+	background: #26ace2;
+	border: 1px solid #125671;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.paging a:hover {
+	font-family:Helvetica, sans-serif;
+	font-weight: bold;
+	color: #26ace2;
+	}
+
+.paging2 {
+    font: normal 13px Helvetica;
+	position: absolute;
+	bottom: -50px; right: 0px;
+	width: 190px; height: 56px;
+	z-index: 100; /*--Assures the paging stays on the top layer--*/
+	text-align: right;
+	line-height: 45px;
+	display: none;
+	//background-color: #FFF;
+	background-position:center;
+}
+
+.paging2 a {
+	font-family:Helvetica, sans-serif;
+	padding: 5px;
+	text-decoration: none;
+	color: #242424;
+}
+
+.paging2 a.active {
+	font-family:Helvetica, sans-serif;
+	color: #FFF;
+	font-weight: bold;
+	background: #26ace2;
+	border: 1px solid #125671;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.paging2 a:hover.active {
+	font-family:Helvetica, sans-serif;
+	font-weight: bold;
+	color: #FFF;
+	background: #26ace2;
+	border: 1px solid #125671;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.paging2 a:hover {
+	font-family:Helvetica, sans-serif;
+	font-weight: bold;
+	color: #26ace2;
+	}

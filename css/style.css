@@ -1,0 +1,97 @@
+#content {
+	clear:both;
+	position:relative;
+	border:1px solid #000;
+	width:750px;
+	margin:25px auto;
+	z-index:-5px;
+}
+.infoPanel {
+	padding:0;
+	margin:0;
+	list-style:none;
+	width:750px;
+	height:270px;
+	position:relative;
+	font-family:verdana, sans-serif;
+	color:#FFF;
+	z-index:-5px;
+
+}
+.infoPanel li {
+	width:271px;
+	float:left;
+	clear:left;
+	height:90px;
+	color:#fff;
+	z-index:-5px;
+}
+.infoPanel li a.infoLink {
+	display:block;
+	width:271px;
+	height:90px;
+	overflow:hidden;
+	text-decoration:none;
+	border:0;
+	color:black;
+	font-size:13px;
+	z-index:-5px;
+}
+.infoPanel li a.infoLink p {
+	color:black;
+	font-size:11px;
+	display:block;
+	width:200px;
+	text-decoration:none;
+	margin-top:3px;
+	padding:0;
+	z-index:-5px;
+}
+.infoPanel li a.current {
+	background:url("../images/back.png");
+	position:absolute;
+	z-index:-4px;
+}
+.infoPanel li {
+	background:url("../images/back4.png") repeat scroll 0 0 transparent;
+}
+.infoPanel li a.infoLink img {
+	display:block;
+	width:52px;
+	height:50px;
+	float:left;
+	margin:20px 10px 0 20px;
+	border:1px solid #000;
+	z-index:-5px;
+}
+.infoPanel li a.infoLink span {
+	display:block;
+	padding:20px 20px 0 0;
+	width:240px;
+	font-weight:bold;
+	z-index:-5px;
+}
+.infoPanel li a.current span {
+	color:white;
+	font-weight:bold;
+	z-index:-5px;
+}
+.infoPanel li div img {
+}
+.infoPanel li div {
+	position:absolute;
+	right:2px;
+	bottom:0px;
+	width:497px;
+	height:270px;
+	background:#000;
+	display:none;
+	overflow:hidden;
+	z-index:-5px;
+}
+.infoPanel li div a {
+	color:#6cf;
+	text-decoration:none;
+	font-size:13px;
+	z-index:-5px;
+}

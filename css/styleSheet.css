@@ -1,0 +1,134 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* { margin:0;
+    padding:0;
+	font-family: Helvetica, Arial,  sans-serif;
+	font-size:14px;;
+}
+
+body {}
+
+.logo{text-align:center;}
+
+.heading{
+	font-size:medium;
+	font-family: Helvetica, Arial,  sans-serif;
+}
+
+.heading a{
+	font-size:medium;
+	font-family: Helvetica, Arial,  sans-serif;
+}
+.social{
+	background:url(../social/bgLight.jpg);
+	background-position:left;
+	margin-top:auto;
+	margin-bottom:auto;
+	width:50px;
+	position:fixed;
+	
+}
+
+.social:hover{
+	background:url(../social/bg.jpg);
+	background-position:left;
+	margin-top:auto;
+	margin-bottom:auto;
+	width:50px;
+	position:fixed;
+	
+}
+
+div#menu { 
+	margin:5px auto;
+	margin-top:-5px;
+}
+
+.contact{
+	font-family: Helvetica, Arial,  sans-serif;
+	font-size:small;
+	color: #999;
+}
+
+.contact a{
+	font-family: Helvetica, Arial,  sans-serif;
+	font-size:small;
+	color: #999;
+}
+
+a:link {
+	color: #26ace2; 
+	text-decoration: none;
+}
+
+a:visited {
+	color: #26ace2; 
+	text-decoration: none;
+}
+
+a:hover {
+	color: #125671; 
+	text-decoration: none;
+}
+
+a:active {
+	color: #125671; 
+	text-decoration: none;
+}
+
+.contact a:link {
+	color:#999; 
+	text-decoration: none;
+}
+
+.contact a:visited {
+	color: #999; 
+	text-decoration: none;
+}
+
+.contact a:hover {
+	color: #26ace2; 
+	text-decoration: none;
+}
+
+.contact a:active {
+	color: #26ace2; 
+	text-decoration: none;
+}
+
+.heading a:link {
+	color:#000; 
+	text-decoration: none;
+}
+
+.heading a:visited {
+	color: #000; 
+	text-decoration: none;
+}
+
+.heading a:hover {
+	color: #26ace2; 
+	text-decoration: none;
+}
+
+.heading a:active {
+	color: #26ace2; 
+	text-decoration: none;
+}
+
+div#copyright {
+    font:11px 'Trebuchet MS';
+    color:#fff;
+    text-indent:30px;
+    padding:40px 0 0 0;
+
+}
+
+img{border-style:none}
+
+div#copyright a {color:#00bfff;}
+
+div#copyright a:hover {color:#fff;}
+
+div#copyright{margin-top:-2000px;}

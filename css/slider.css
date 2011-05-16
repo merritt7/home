@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*--Main Container--*/
+
+
+
+*{
+	outline: none;
+}
+
+img {
+	border: 0;
+}
+
+.container {
+	width: 803px;
+	padding: 0;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:-9px;
+}
+
+.container2{
+	width: 803px;
+	padding: 0;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:-29px;
+}
+
+.main_view {
+	float: left;
+	position: relative;
+}
+
+/*--Window/Masking Styles--*/
+
+.window {
+	height:500px; width: 803px;
+	overflow: hidden; /*--Hides anything outsid of the section--*/
+	position: relative;
+}
+
+.window2 {
+	height:250px; width: 803px;
+	overflow: hidden; /*--Hides anything outsid of the section--*/
+	position: relative;
+}
+
+.image_reel {
+	position: absolute;
+	top: 1px;
+	left: 2px;
+}
+
+.image_reel img {
+	float: left;
+}
+
+
+
+
+/*by Soh Tanaka*/
